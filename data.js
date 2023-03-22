@@ -2,43 +2,27 @@ const data = [
     {
         name: "Test - One",
         seed: 5,
-        avatar: "test.jpg"
+        avatar: "test.jpg",
+        card: "bronze-22"
     },
     {
-        name: "Test - Two",
-        seed: 2,
-        avatar: "test.jpg"
-    },
-    {
-        name: "Test - Two",
-        seed: 3,
-        avatar: "test.jpg"
-    },
-    {
-        name: "Test - Two",
-        seed: 4,
-        avatar: "test.jpg"
-    },
-    {
-        name: "Test - Two",
+        name: "Test - One",
         seed: 5,
-        avatar: "test.jpg"
+        avatar: "test.jpg",
+        card: "silver-22"
     },
     {
-        name: "Test - Two",
-        seed: 6,
-        avatar: "test.jpg"
+        name: "Test - One",
+        seed: 5,
+        avatar: "test.jpg",
+        card: "gold-22"
     },
     {
-        name: "Test - Two",
-        seed: 7,
-        avatar: "test.jpg"
+        name: "Test - One",
+        seed: 5,
+        avatar: "test.jpg",
+        card: "bronze-22"
     },
-    {
-        name: "Test - Two",
-        seed: 28,
-        avatar: "test.jpg"
-    }
 ]
 
 export default data;

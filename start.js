@@ -15,7 +15,7 @@ function a() {
                                     </div>
                                     <img class="avatar" src=${item.avatar}>
                                     <div class="name">${item.name}</div>
-                                    <img class="one" src="card.png"/>
+                                    <img class="one" src="${item.card}.png"/>
                                 </div>
                             </column>`;
   });
