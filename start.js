@@ -4,7 +4,7 @@ console.log(data);
 let container1 = document.querySelector(".container1");
 
 function a() {
-  data.forEach((item) => {
+  data.slice().reverse().forEach((item) => {
     console.log*(item)
     container1.innerHTML += `
                             <column class="container">
@@ -15,6 +15,7 @@ function a() {
                                     </div>
                                     <img class="avatar" src=${item.avatar}>
                                     <div class="name">${item.name}</div>
+                                    <div class="team">${item.team}</div>
                                     <img class="one" src="${item.card}.png"/>
                                 </div>
                             </column>`;
